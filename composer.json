@@ -1,0 +1,18 @@
+{
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/n0ts/rocketeer.git",
+            "branch": "my-feature-on-2.2.0"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/n0ts/rocketeer-slack.git",
+            "branch": "my-feature-on-master"
+        }
+    ],
+    "require": {
+        "rocketeers/rocketeer": "dev-my-feature-on-2.2.0",
+        "rocketeers/rocketeer-slack": "dev-my-feature-on-master"
+    }
+}
